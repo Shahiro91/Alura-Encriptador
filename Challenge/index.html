@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imagen">
+            <img src="./Imagenes/Merlina-Addams-Wednesday-10-718x1024.png" alt="" width="100%">
+        </div>
+        <div class="encriptador">
+            <h1>Encriptador de texto</h1>
+            <br>
+            <div class="left">
+                <textarea name="" id="texto-encriptar" cols="40" rows="15">Escriba el texto aquí</textarea>
+                <button id="Encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="Desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            <div class="right">
+                <img src="./Imagenes/dedos-merlina.png" alt="" width="70px">
+                <textarea name="txtCifrado" id="txtCifrado" class="txtCifrado" cols="17" rows="3">No se ha encontrado ningun texto</textarea>
+                <button class="copiar" id="copiar" onclick="copiar()">Copiar</button>
+            </div>   
+            <p class="instrucciones">No se pueden usar mayúsculas ni acentos</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Realizado por María Florencia Quintana.</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/maria-florencia-quintana-front/">
+                <img src="./Imagenes/iconfinder-social-media-applications-14linkedin-4102586_113786.png" alt=""
+                    width="50pxS">
+            </a>
+            <a href="https://github.com/Shahiro91">
+                <img src="./Imagenes/4202098codedevelopergithublogo-115590_115711.png" alt="" width="50px">
+            </a>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

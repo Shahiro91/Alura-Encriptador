@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-zombie-horror-night-with-pumpkin-and-big-moon-background-picture-image_1239673.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    color: rgb(211, 113, 43);
+    font-size: 40px;
+    margin-left: 30%;
+    width: 80%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.imagen{
+    display: inline-block;
+    width: 30%;
+}
+
+.encriptador{
+    width: 60%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+}
+
+.instrucciones{
+    margin-left: 43%;
+    font-size: 13px;
+}
+
+button{
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgb(211, 113, 43);
+    border-radius: 15px;
+}
+
+button:hover{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+textarea{
+    opacity: 50%;
+}
+
+textarea:hover{
+    opacity: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.756);
+    
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.redes{
+    margin-left: 46%;
+}
+
+.encriptador.left{
+    width: 45%;
+}
+
+.encriptador.right{
+    width: 45%;
+}
+
+#copiar{
+    margin-left: 33%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+#copiar:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.right{
+    background-color: rgb(211, 113, 43);
+    opacity: 80%;
+    width: 200px;
+    height: 300px;
+}
+
+.right img{
+    margin-left: 30%;
+    margin-top: 5%;
+    
+}
+
+.txtCifrado{
+    margin: 10%;
+    text-align: center;
+    padding: 5%;
+}
+
+.left{
+    max-height: 315px;
+}
